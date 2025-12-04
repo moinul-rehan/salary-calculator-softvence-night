@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Salary Calculator</h2>
+
+        <label for="grossSalary">Gross Salary (GS)</label>
+        <input type="number" id="grossSalary" placeholder="Enter Gross Salary">
+
+        <label for="totalDays">Total Days in Month (DM)</label>
+        <input type="number" id="totalDays" placeholder="Enter Days in Month">
+
+        <label for="daysPresent">Days Present (DP)</label>
+        <input type="number" id="daysPresent" placeholder="Enter Days Present">
+
+        <button onclick="calculateSalary()">Calculate Salary</button>
+
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
+
+    <div class="footer">
+        Courtesy • Made by Rehan
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
