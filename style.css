@@ -59,8 +59,14 @@ button:hover {
     background: #eaffea;
     border-left: 4px solid #0f8d41;
     border-radius: 5px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;   /* ↓ Reduced font size */
+    line-height: 1.5;  /* Better readability */
+    font-weight: 500;
+}
+
+.result .final-salary {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .footer {
