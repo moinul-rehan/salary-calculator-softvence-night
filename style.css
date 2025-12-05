@@ -59,8 +59,8 @@ button:hover {
     background: #eaffea;
     border-left: 4px solid #0f8d41;
     border-radius: 5px;
-    font-size: 16px;   /* ↓ Reduced font size */
-    line-height: 1.5;  /* Better readability */
+    font-size: 16px;   
+    line-height: 1.5; 
     font-weight: 500;
 }
 
